@@ -1,0 +1,30 @@
+.form {
+    width: 65%;
+    height: 20%;
+    border-radius: 20px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+}
+.inputsContainer {
+    background-color: rgb(0, 215, 215);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.inputsContainer > input {
+    text-align: center;
+    border-radius: 5px;
+    height: 25%;
+    border: solid 2px black;
+    font-weight: bold;
+}
+.inputsContainer > button {
+    height: 25%;
+    width: 50%;
+    border-radius: 5px;
+    border: solid 2px black;
+    background-color: white;
+}
